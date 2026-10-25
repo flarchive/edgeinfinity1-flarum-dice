@@ -1,0 +1,47 @@
+{
+  "name": "edgeinfinity/flarum-dice",
+  "description": "Server-rolled inline dice for Flarum posts, with persistent results and configurable effects.",
+  "type": "flarum-extension",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "EdgeInfinity",
+      "homepage": "https://github.com/edgeinfinity1"
+    }
+  ],
+  "require": {
+    "php": "^8.3",
+    "flarum/core": "^2.0.2"
+  },
+  "autoload": {
+    "psr-4": {
+      "EdgeInfinity\\Dice\\": "src/"
+    }
+  },
+  "scripts": {
+    "test": "@php tests/run.php"
+  },
+  "extra": {
+    "flarum-extension": {
+      "title": "Dice",
+      "category": "feature",
+      "icon": {
+        "name": "fas fa-dice",
+        "backgroundColor": "#6254a4",
+        "color": "#ffffff"
+      }
+    }
+  },
+  "homepage": "https://github.com/edgeinfinity1/flarum-dice",
+  "support": {
+    "source": "https://github.com/edgeinfinity1/flarum-dice",
+    "issues": "https://github.com/edgeinfinity1/flarum-dice/issues",
+    "docs": "https://github.com/edgeinfinity1/flarum-dice/blob/main/docs/TECHNICAL.md"
+  },
+  "keywords": [
+    "flarum",
+    "dice",
+    "roleplay",
+    "random"
+  ]
+}

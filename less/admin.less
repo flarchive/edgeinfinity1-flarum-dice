@@ -1,0 +1,15 @@
+@import "forum.less";
+.EdgeDiceAdmin {
+ .container { max-width: 1150px; }
+ .EdgeDiceAdmin-field { display:block; max-width:640px; margin-bottom:18px; >span:first-child {display:block;font-weight:600;margin-bottom:5px;} }
+ .EdgeDiceAdmin-colors {display:grid;grid-template-columns:repeat(auto-fit,minmax(260px,1fr));gap:18px;}
+ fieldset {border:1px solid var(--control-bg);border-radius:var(--border-radius);padding:14px;min-width:0;}
+ legend {font-size:1.1em;font-weight:bold;}
+ .EdgeDiceAdmin-theme {margin-bottom:15px;label{display:grid;grid-template-columns:85px 1fr;gap:10px;align-items:center;margin-bottom:8px;}h4{margin-top:0;}}
+ .EdgeDiceAdmin-swatch{display:inline-block;border-radius:var(--border-radius);padding:6px 12px;font-variant-numeric:tabular-nums;}
+ .Form-controls{display:flex;gap:12px;margin-top:20px;}
+}
+
+.EdgeDiceAdmin-icons, .EdgeDiceAdmin-labels { display:grid; grid-template-columns:repeat(auto-fit,minmax(260px,1fr)); gap:18px; }
+.EdgeDiceAdmin-icons { fieldset {min-width:0;} .EdgeDiceAdmin-field {margin:12px 0;} }
+.EdgeDiceAdmin-iconPreview { display:flex;align-items:center;justify-content:center;min-height:45px;margin:10px 0;background:var(--control-bg);border-radius:var(--border-radius);font-size:24px; }
